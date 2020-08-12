@@ -15,7 +15,7 @@
 
 
         <activity
-            android:name=".single_playground_2x2"
+            android:name=".SinglePlayground2x2"
             android:label="@string/title_activity_single_playground_2x2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

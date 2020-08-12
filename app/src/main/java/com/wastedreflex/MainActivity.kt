@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         mAdView.loadAd(adRequest)
 
         newGameBtn.setOnClickListener {
-            val intent = Intent(applicationContext,single_playground_2x2::class.java)
+            val intent = Intent(applicationContext,SinglePlayground2x2::class.java)
             startActivity(intent)
         }
     }
