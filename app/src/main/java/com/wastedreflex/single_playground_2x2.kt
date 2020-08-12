@@ -14,14 +14,11 @@ class single_playground_2x2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_single_playground_2x2)
 
-        val leftUp_1 = 1.toString()
-        val rightUp_2 = 2.toString()
-        val leftDown_3 = 3.toString()
-        val rightDown_4 = 4.toString()
 
         generateBtn.setOnClickListener {
             val randomBlock = (1..4).random()
             println(randomBlock)
+            val randomTimer = (1..4).random()
             Toast.makeText(this@single_playground_2x2, randomBlock.toString(), Toast.LENGTH_SHORT).show()
         }
 
