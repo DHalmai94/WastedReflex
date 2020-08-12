@@ -15,6 +15,7 @@ class single_playground_2x2 : AppCompatActivity() {
         setContentView(R.layout.activity_single_playground_2x2)
 
 
+
         generateBtn.setOnClickListener {
             val randomBlock = (1..4).random()
             println(randomBlock)
